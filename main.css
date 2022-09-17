@@ -1,3 +1,78 @@
-/* body{
-    background-color: aqua;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color:#00bfa6;
+    
+}
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    background-color: #1f2937;
+    color: white;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    font-size: 1.3rem;
+}
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+a.link-active{
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 70vw;
+}
+.heading{
+    text-align: center;
+    margin-top: 1rem;
+}
+.formula{
+    border: 2px solid var(--primary-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+label{
+    margin: 1rem;
+}
+input{
+    padding: 0.7rem;
+}
+.quiz-container{
+    border: 2px solid var(--primary-color);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+p{
+    margin-bottom: 1rem;
+}
+button{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.3rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+#output-box{
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}

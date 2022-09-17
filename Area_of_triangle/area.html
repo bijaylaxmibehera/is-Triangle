@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>area of triangle</title>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="/index.html">is Triangle?</a></li>
-            <li><a href="/Triangle_quiz/quiz.html">Quiz</a></li>
-            <li><a href="/hypotenuse_of_a_triangle/hypotenuse.html">Hypotenuse</a></li>
-            <li><a href="#">Area</a></li>
-        </ul>
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <nav class="navigation">
+      <a href="/index.html">is Triangle?</a>
+      <a href="/Triangle_quiz/quiz.html">Quiz</a>
+      <a href="/hypotenuse_of_a_triangle/hypotenuse.html">Hypotenuse</a>
+      <a href="#" class="link-active">Area</a>
     </nav>
-    <h1>Calculate area</h1>
+    <div class="container">
+    <h1 class="heading">Calculate area</h1>
     <h2 class="formula">Area of Triangle A = 1/2 (base * height)</h2>
     <label>Base(in cm)</label>
-    <input type="number" class="input">
+    <input type="number" class="input" />
     <label>Height(in cm)</label>
-    <input type="number" class="input">
+    <input type="number" class="input" />
     <button id="calculate-area-btn">Calculate Area</button>
     <div id="output-box"></div>
-</body>
-<script src="area.js"></script>
+    </div>
+  </body>
+  <script src="area.js"></script>
 </html>
