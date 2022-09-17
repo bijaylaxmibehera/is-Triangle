@@ -73,10 +73,13 @@ button{
     font-size: 1.3rem;
     border: 1px solid var(--primary-color);
     border-radius: 10px;
+    cursor: pointer;
 }
 #output-box{
     color: white;
     font-size: 1.4rem;
     margin-top: 0.5rem;
     text-align: center;
+    font-weight: bold;
+    
 }
