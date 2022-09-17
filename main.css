@@ -27,8 +27,12 @@ a {
     color: white;
     margin: 1rem;
 }
-a.link-active{
-    text-decoration: underline;
+
+.link-active{
+    /* text-decoration: underline; */
+    font-weight: bold;
+   
+
 }
 .container{
     display: flex;
